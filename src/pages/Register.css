@@ -1,0 +1,125 @@
+/* Register.css */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('D:\mern\website\src\images\bg3.jpg'); /* ✅ use relative path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 1;
+}
+
+.register-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+  position: relative;
+  z-index: 2;
+}
+
+.card-header h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #c2185b;
+}
+
+.card-body .input-group {
+  margin-bottom: 18px;
+}
+
+.form-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #ff69b4;
+  outline: none;
+}
+
+.btn-primary-custom {
+  width: 100%;
+  background-color: #ff69b4;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary-custom:hover {
+  background-color: #e055a0;
+}
+
+.link-group {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.btn-link-custom {
+  background: none;
+  border: none;
+  color: #c2185b;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.login-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-group p {
+  margin-bottom: 8px;
+}
+
+.btn-outline-custom {
+  background-color: white;
+  color: #ff69b4;
+  border: 2px solid #ff69b4;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn-outline-custom:hover {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.message {
+  margin-top: 15px;
+  text-align: center;
+  color: red;
+  font-weight: 600;
+}

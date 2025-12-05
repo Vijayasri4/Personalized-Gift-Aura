@@ -1,0 +1,143 @@
+.home-section {
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* 🧁 HERO SECTION */
+.hero-section {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.hero-overlay {
+  background: rgba(4, 144, 232, 0.303);
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #ffccff;
+  margin-bottom: 1rem;
+  animation: fadeInDown 1.2s ease;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #ffe6ff;
+  animation: fadeInUp 1.2s ease;
+}
+
+.hero-btn {
+  background-color: #ff66cc;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #ff1493;
+  transform: scale(1.05);
+}
+
+/* ✨ Divider */
+.divider {
+  height: 6px;
+  background: linear-gradient(90deg, #ff66cc, #ffb6c1, #ffe6ff);
+  margin: 40px 0;
+  border-radius: 5px;
+}
+
+/* 📦 CATEGORIES SECTION */
+.categories-section {
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  padding: 60px 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.categories-section h2 {
+  color: #ff3399;
+  margin-bottom: 40px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #ffcce6;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.category-card {
+  background-color: #fff0f5;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.category-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);
+}
+
+.category-card:hover img {
+  transform: scale(1.1);
+}
+
+.category-card h4 {
+  margin: 1rem 0;
+  color: #b30059;
+  font-weight: bold;
+}
+
+/* 🌈 QUOTE SECTION */
+.quote-section {
+  margin: 60px auto;
+  text-align: center;
+  background: linear-gradient(135deg, #ffccff, #ffe6f2);
+  padding: 40px 20px;
+  border-radius: 16px;
+  max-width: 800px;
+  color: #4d004d;
+  font-style: italic;
+  box-shadow: 0 4px 10px rgba(19, 2, 5, 0.5);
+}
+
+/* ✨ Animations */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeInUp 1s ease forwards;
+}
