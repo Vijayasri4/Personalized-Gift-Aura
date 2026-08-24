@@ -174,16 +174,3 @@ The app will be available at `http://localhost:3000` (frontend) and your configu
 - Admin analytics dashboard
 - Wishlist functionality
 
----
-
-## 👩‍💻 Author
-
-**Vijaya Sri Kesavan**
-Department of Computer Science and Engineering
-Sri Shakthi Institute of Engineering and Technology, Coimbatore
-
----
-
-## 📄 License
-
-This project is developed for academic purposes as part of the **Web Development Laboratory (21CS514)** course.
